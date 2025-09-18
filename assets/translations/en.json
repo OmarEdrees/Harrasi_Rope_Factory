@@ -287,8 +287,8 @@
         "customTitle": "Add Expenses Category",
         "expenses_Name": "Expenses Name",
         "enter_expenses_name": "enter expenses name",
-        "Expenses_Description": "Expenses Description",
-        "enter_Expenses_Description": "enter expenses description",
+        "expenses_Description": "Expenses Description",
+        "enter_expenses_description": "enter expenses description",
         "Add_Expenses_Category": "Add Expenses Category",
         "expenses_category_title": "Expenses Categories",
         "search_hintText": "search for expenses categories"
