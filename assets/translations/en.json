@@ -1,0 +1,433 @@
+{
+  "onboarding": {
+    "welcome": {
+      "title": "Welcome",
+      "description": "Welcome to our program for managing sales, manufacturing, accounting, invoices, and inventory."
+    },
+    "sales": {
+      "title": "Sales",
+      "description": "Register clients, create quotations, track orders, and generate daily, monthly, and yearly reports."
+    },
+    "manufacturing": {
+      "title": "Manufacturing",
+      "description": "Manage manufacturing orders, define raw materials, track production, and analyze worker/machine efficiency."
+    },
+    "accounting": {
+      "title": "Accounting",
+      "description": "Record revenues and expenses, manage bank and cash accounts, client and supplier statements, and financial reports."
+    },
+    "invoices": {
+      "title": "Invoices",
+      "description": "Sales, purchase, maintenance, and manufacturing invoices, payment collection, and searchable/printable archive."
+    },
+    "inventory": {
+      "title": "Inventory",
+      "description": "Register raw materials and finished products, track quantities, low stock alerts, and warehouse inventory."
+    }
+  },
+  "auth": {
+      "sign_in": {
+        "form": {
+          "email": "Email",
+          "hint_text_email": "enter your email",
+          "password": "Password",
+          "hint_text_password": "enter your password",
+          "textFormField_validate": "Field {title} is required"
+        },
+        "remember_me": {
+          "title": "Remember me",
+          "forgot_password": "Forgot Password ?"
+        },
+        "screen_body": {
+          "customQuickAlert_title": "Success",
+          "customQuickAlert_message": "Sign In Successfully",
+          "customQuickAlert_error_title": "Error",
+          "customElevatedButton_name": "Sign In",
+          "haveAccountOrNot_title": "Don't have an account?",
+          "haveAccountOrNot_value": "Sign Up"
+        }
+      },
+      "sign_up": {
+        "form": {
+          "user_name": "User Name",
+          "hint_text_user_name": "enter your user name",
+          "full_name": "Full Name",
+          "hint_text_full_name": "enter your full name",
+          "email": "Email",
+          "hint_text_email": "enter your email",
+          "phone_number": "Phone Number",
+          "hint_text_phone_number": "enter your phone number",
+          "password": "Password",
+          "hint_text_password": "enter your password",
+          "textFormField_validate": "Field {title} is required"
+        },
+        "screen_bodys": {
+          "customQuickAlert_title": "Success",
+          "customQuickAlert_message": "Sign Up Successfully",
+          "customQuickAlert_error_title": "Error",
+          "customQuickAlert_info_title": "Info",
+          "customElevatedButton_name": "Sign Up",
+          "haveAccountOrNot_title": "Do you have an account ? ",
+          "haveAccountOrNot_value": "Sign In"
+        },
+        "cubit": {
+          "pickProfileImage": "No image selected",
+          "signUp": "Please select an image"
+        }
+      }
+    },
+    "sales_invoices": {
+      "add_sales": {
+        "customQuickAlert_title": "Success",
+        "customQuickAlert_message": "Sales Invoice Added Successfully",
+        "customQuickAlert_error_title": "Error",
+        "customQuickAlert_warning_title": "Warning",
+        "customQuickAlert_selectCustomer_message": "Please select a customer",
+        "customQuickAlert_selectProduct_message":
+            "Please add at least one product",
+        "customQuickAlert_selectDueDate_message": "Please select a due date",
+        "customQuickAlert_selectPaymentMethod_message":
+            "Please select a payment method",
+        "customTitle": "Add Sales Invoice",
+        "Customer": "Customer",
+        "Select_Customer": "Select Customer",
+        "productModel_title": "Product",
+        "productModel_hintText": "Select product",
+        "quantity_title": "Quantity",
+        "quantity_hintText": "Enter quantity",
+        "customQuickAlert_message2":
+            "Please enter a valid quantity and select a product",
+        "text": "No products added yet",
+        "product": "Product",
+        "qty": "Qty",
+        "unitPrice": "Unit Price",
+        "total": "Total",
+        "customDateTimeFormField_title": "Due Date",
+        "customDateTimeFormField_hintText": "Select date",
+        "paymentMethod_title": "Payment Method",
+        "paymentMethod_hintText": "Select payment method",
+        "subtotal": "Subtotal",
+        "enterTax": "Enter tax",
+        "tax": "Tax",
+        "discount": "Discount",
+        "enter_discount": "Enter discount",
+        "notes": "Notes",
+        "enterYourNotes": "Enter your notes",
+        "addInvoice": "Add Invoice",
+        "screen_title":"Sales Invoices",
+        "search_hintText":"search for sales by number ..."
+      },
+      "details_modal": {
+        "customTitle_title": "Sale Invoice Details",
+        "ID": "ID",
+        "Invoice_Number": "Invoice Number",
+        "Customer": "Customer",
+        "Customer_ID": "Customer ID",
+        "Date": "Date",
+        "Due_Date": "Due Date",
+        "No_Due_Date": "No Due Date",
+        "Status": "Status",
+        "Payment_Method": "Payment Method",
+        "Subtotal": "Subtotal",
+        "Tax": "Tax",
+        "Discount": "Discount",
+        "Total": "Total",
+        "Notes": "Notes",
+        "Created_At": "Created At",
+        "Updated_At": "Updated At"
+      }
+    },
+    "purchases_invoices": {
+      "details_modal": {
+        "customTitle_title": "Purchase Invoice Details",
+        "Supplier": "Supplier",
+        "Supplier_ID": "Supplier ID"
+      },
+      "add_purchase":{
+        "customQuickAlert_message": "Purchase Invoice Added Successfully",
+        "SelectSupplier_message":"Please select a supplier",
+        "SelectDueDate_message":"Please select a due date",
+        "SelectPaymentMethod_message":"Please select a payment method",
+        "SelectItem_message":"Please add at least one product or raw material",
+        "CustomQuickAlert_message":"Please select a product and enter a valid quantity",
+        "Raw_Material":"Raw Material",
+        "Select_raw":"Select Raw Material",
+        "please_raw":"Please select a raw material and enter a valid quantity",
+        "no_raw":"No raw materials added yet",
+        "CustomTitle":"Add Purchase Invoice",
+        "Supplier":"Supplier",
+        "Select_Supplier":"Select Supplier",
+        "Purchases": "Purchases",
+        "search_Purchases": "search for purchases by number ..."
+      },
+      "pop_up":{
+        "update":"Update",
+        "delete":"Delete",
+        "print":"Print",
+        "share":"Share"
+      }
+    },
+    "DashBoardItemModel":{
+      "Purchases":"Purchases",
+      "Sales":"Sales",
+      "Suppliers":"Suppliers",
+      "Customers":"Customers",
+      "Expenses_Categories":"Expenses Categories",
+      "Expenses":"Expenses",
+      "Safe":"Safe",
+      "Raw_Materials":"Raw Materials",
+      "Categories":"Categories",
+      "Products":"Products",
+      "Bill_of_Materials":"Bill of Materials",
+      "Manufacturing":"Manufacturing"
+    },
+    "suppliers":{
+      "add_supplier":{
+        "CustomQuickAlert_message":"Supplier Added Successfully",
+        "SelectContactPerson":"Please select a contact person",
+        "SelectPaymentTerm":"Please select a payment term",
+        "customTitle":"Add Supplier",
+        "Supplier_Name":"Supplier Name",
+        "enter_supplier_name":"enter supplier name",
+        "Contact_Person":"Contact Person",
+        "select_contact_person":"select contact person",
+        "Phone":"Phone Number",
+        "enter_phone":"enter phone number", 
+        "Email":"Supplier Email",
+        "enter_email":"enter supplier email",
+        "Address":"Supplier Address",
+        "enter_address":"enter supplier address",
+        "Payment_Terms":"Payment Terms",
+        "select_payment_terms":"enter payment terms",
+        "Credit_Limit":"Credit Limit",
+        "enter_credit_limit":"enter credit limit",
+        "Supplier_Balance":"Supplier Balance",
+        "enter_supplier_balance":"enter supplier balance",
+        "Add_Supplier":"Add Supplier"
+          },
+          "details_modal":{
+            "customTitle_title":"Supplier Details",
+            "ID":"ID",
+            "Name":"Name",
+            "Contact_Person":"Contact Person",
+            "Phone":"Phone",
+            "Email":"Email",
+            "Address":"Address",
+            "Tax_ID":"Tax ID",
+            "Payment_Terms":"Payment Terms",
+            "Credit_Limit":"Credit Limit",
+            "Balance":"Balance",
+            "Notes":"Notes",
+            "Created_At":"Created At",
+            "No_Date":"No Date",
+            "Updated_At":"Updated At",
+            "Suppliers_title": "Suppliers",
+            "search_hintText": "search for suppliers by name ..."
+          }
+    },
+    "customers":{
+      "add_customer":{
+        "CustomQuickAlert_message": "Customer Added Successfully",
+        "SelectContactPerson": "Please select a contact person",
+        "SelectPaymentTerm": "Please select a payment term",
+        "customTitle": "Add Customer",
+        "Customer_Name": "Customer Name",
+        "enter_customer_name": "enter customer name",
+        "Email": "Customer Email",
+        "enter_email": "enter customer email",
+        "Address": "Customer Address",
+        "enter_address": "enter customer address",
+        "Customer_Balance": "Customer Balance",
+        "enter_customer_balance": "enter customer balance",
+        "Add_Customer": "Add Customer",
+        "Customers_title": "Customers",
+        "search_hintText": "search for customers by name ...",
+        "Customer_Details":"Customer Details"
+      }
+    },
+    "expenses":{
+      "add_expense": {
+        "customQuickAlert_message": "Expense Added Successfully",
+        "customQuickAlert_selectExpenseCategory_message":
+            "Please select an expense category",
+        "customQuickAlert_selectPaymentMethod_message":
+            "Please select a payment method",
+        "customQuickAlert_selectExpenseDate_message":
+            "Please select a date",
+        "customTitle": "Add Expense",
+        "Expenses_Category": "Expenses Category",
+        "select_expenses_category": "select expenses category",
+        "Reference": "Reference",
+        "enter_reference": "enter reference",
+        "Amount": "Amount",
+        "enter_amount": "enter amount",
+        "Payment_Method": "Payment Method",
+        "select_payment_method": "select payment method",
+        "Date": "Date",
+        "select_date": "select date",
+        "Notes": "Notes",
+        "enter_notes": "enter notes",
+        "Add_Expense": "Add Expense",
+        "expenses_title": "Expenses",
+        "search_hintText": "search for expenses by reference ..."
+      },
+      "details_modal": {
+        "customTitle_title": "Expense Details",
+        "Reference": "Reference",
+        "Expense_Date": "Expense Date",
+        "Amount": "Amount",
+        "Payment_Method": "Payment Method",
+        "Notes": "Notes",
+        "No_Reference": "No Reference"
+      }
+    },  
+    "expenses_category": {
+      "add_expense_category": {
+        "customQuickAlert_message": "Expense Category aded successfully",
+        "customTitle": "Add Expenses Category",
+        "expenses_Name": "Expenses Name",
+        "enter_expenses_name": "enter expenses name",
+        "Expenses_Description": "Expenses Description",
+        "enter_Expenses_Description": "enter expenses description",
+        "Add_Expenses_Category": "Add Expenses Category",
+        "expenses_category_title": "Expenses Categories",
+        "search_hintText": "search for expenses categories"
+      },
+      "details_modal": {
+        "customTitle_title": "Category Details",
+        "ID": "ID",
+        "Name": "Name",
+        "Description": "Description",
+        "No_Description": "No Description",
+        "Created_At": "Created At",
+        "Updated_At": "Updated_At"
+      }
+    },
+     "raw_materials": {
+        "customQuickAlert_message": "Raw material added successfully",
+        "UnitNotSelected": "Please select a unit",
+        "customTitle": "Add New Material",
+        "material_Name": "Material Name",
+        "enter_material_name": "enter material name",
+        "material_Description": "Material Description",
+        "enter_material_description": "enter material description",
+        "Material_Quantity": "Material Quantity",
+        "enter_material_quantity": "enter material quantity",
+        "Material_Unit": "Material Unit",
+        "select_material_unit": "select material unit",
+        "Add_Material": "Add Material",
+        "raw_materials_title": "Raw Materials",
+        "search_hintText": "search for raw materials",
+        "customTitle_title": "Raw Material Details",
+        "Unit": "Unit",
+        "Current_Stock": "Current Stock"
+    },
+    "categories": {
+        "customQuickAlert_message": "Category added successfully",
+        "customTitle": "Add New Category",
+        "category_Name": "Category Name",
+        "enter_category_name": "enter category name",
+        "category_Description": "Category Description",
+        "enter_category_description": "enter category description",
+        "Add_Category": "Add Category",
+        "categories_title": "Categories",
+        "search_hintText": "Search for category name ...",
+        "customTitle_title": "Category Details",
+        "Active": "Active"
+    },
+    "products": {
+      "add_product": {
+        "customQuickAlert_message": "Product added successfully",
+        "SelectCategory": "Please select a category",
+        "SelectUnit": "Please select a unit",
+        "customTitle": "Add Product",
+        "product_Name": "Product Name",
+        "enter_product_name": "enter product name",
+        "product_Description": "Product Description",
+        "enter_product_description": "enter product description",
+        "Product_Price": "Product Price",
+        "enter_product_price": "enter product price",
+        "Selling_Price": "Selling Price",
+        "enter_selling_price": "enter selling price",
+        "Profit": "Profit:{value}",
+        "Select_Category": "Select Category",
+        "Select_Unit": "Select Unit",
+        "min_stock": "Min Stock Level",
+        "current_stock": "Current Stock",
+        "Is_Manufacturer": "Is Manufacturer",
+        "Add_Product": "Add Product",
+        "Clear_All": "Clear All",
+        "Delete": "Delete",
+        "Update": "Update",
+        "Pick_Image": "Pick Product Image",
+        "products_title": "Products",
+        "search_hintText": "search for product name ..."
+      },
+      "product_details": {
+        "customTitle_title": "Product Details",
+        "ID": "ID",
+        "Name": "Name",
+        "Category_ID": "Category ID",
+        "Description": "Description",
+        "No_Description": "No Description",
+        "Purchase_Price": "Purchase Price",
+        "Selling_Price": "Selling Price",
+        "Manufactured": "Manufactured",
+        "Unit": "Unit",
+        "Minimum_Stock": "Minimum Stock Level",
+        "Current_Stock": "Current Stock",
+        "Created_At": "Created At",
+        "Updated_At": "Updated At"
+      }
+    },
+    "dash_board":{
+      "Harrasi_Rope_Factory": "Harrasi Rope Factory",
+      "Admin": "Admin"
+    },
+    "bill_of_materials":{
+        "Bill_of_material":"Bill of material added successfully",
+       "SelectProduct":"Please select a product",
+       "CustomTitle":"Add Bill of Material",
+       "Select_Product": "Select Product",
+       "Bill_of_Materials_title":"Bill of Materials",
+       "search_hintText": "Search for Bill of Materials by name ..."
+    },
+    "bill_of_materials_item": {
+      "Bill": "Bill of material item added successfully",
+      "SelectRawMaterial": "Please select a raw material",
+      "SelectUnit": "Please select a unit",
+      "CustomTitle": "Add Bom Item",
+      "Description": "Description",
+      "CustomTitle_title": "BOM Item Details",
+      "Bill_ID":"Bill of Material ID",
+      "Raw_ID": "Raw Material ID",
+      "Raw_Material": "Raw Material",
+      "Item": "Item",
+      "Bom_Items": "BOM Items",
+      "search_hintText": "search for a BOM item by name..."
+    },
+    "manufacture":{
+        "customQuickAlert_message": "Manufacture Added Successfully",
+        "SelectStartDate": "Select Start Date",
+        "SelectEndDate": "Select End Date",
+        "SelectProduct": "Select Product",
+        "SelectBillOfMaterial": "Select Bill of Material",
+        "select_bill":"select bill of material",
+        "Start_Date": "Start Date",
+        "enter":"enter end time",
+        "No_Product": "No Product",
+        "Product_ID": "Product ID",
+        "BOM_ID": "BOM ID",
+        "Status": "Status",
+        "No_Start_Date": "No Start Date",
+        "End_Date": "End Date",
+        "No_End_Date": "No End Date",
+        "Manufacturer_title": "Manufacture",
+        "search_hintText": "search for manufacture by name ...",
+        "CustomTitle": "Add Manufacture",
+      "enter_start_time": "enter start time",
+      "Manufacture_Details": "Manufacture Details"
+    },
+  "current_language": "Ar",
+  "skip":"Skip"
+}
