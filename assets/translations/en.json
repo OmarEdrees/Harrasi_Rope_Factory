@@ -428,6 +428,18 @@
       "enter_start_time": "enter start time",
       "Manufacture_Details": "Manufacture Details"
     },
-  "current_language": "Ar",
-  "skip":"Skip"
+    "settings_screen": {
+      "title": "Settings",
+      "Profile": "Profile",
+      "Preferences": "Preferences",
+      "Notifications": "Notifications",
+      "Security_Privacy":"Security & Privacy",
+      "Account":"Account",
+      "Help_Support":"Help & Support",
+      "About":"About App"
+    },
+  "current_language": "EN",
+  "skip":"Skip",
+  "Dark_Light_Mode": "Dark & Light Mode",
+    "Translation": "Translation"
 }

@@ -32,7 +32,7 @@ class CustomOnBoardingAppBar extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "EN",
+                LocaleKeys.current_language.tr(),
                 style: AppTextStyles.title14White,
               ),
               SizedBox(width: SizeConfig.width * 0.03),

@@ -449,8 +449,20 @@ class CodegenLoader extends AssetLoader {
       "enter_start_time": "أدخل وقت البدء",
       "Manufacture_Details": "تفاصيل التصنيع"
     },
-    "current_language": "EN",
-    "skip": "تخطى"
+    "settings_screen": {
+      "title": "الإعدادات",
+      "Profile": "الملف الشخصي",
+      "Preferences": "التفضيلات",
+      "Notifications": "الإشعارات",
+      "Security_Privacy": "الأمان والخصوصية",
+      "Account": "الحساب",
+      "Help_Support": "المساعدة والدعم",
+      "About": "حول التطبيق",
+    },
+    "current_language": "Ar",
+    "skip": "تخطى",
+    "Dark_Light_Mode": "الوضع الداكن والفاتح",
+    "Translation": "الترجمة"
   };
   static const Map<String, dynamic> _en = {
     "onboarding": {
@@ -888,8 +900,20 @@ class CodegenLoader extends AssetLoader {
       "enter_start_time": "enter start time",
       "Manufacture_Details": "Manufacture Details"
     },
-    "current_language": "Ar",
-    "skip": "Skip"
+    "settings_screen": {
+      "title": "Settings",
+      "Profile": "Profile",
+      "Preferences": "Preferences",
+      "Notifications": "Notifications",
+      "Security_Privacy": "Security & Privacy",
+      "Account": "Account",
+      "Help_Support": "Help & Support",
+      "About": "About App",
+    },
+    "current_language": "EN",
+    "skip": "Skip",
+    "Dark_Light_Mode": "Dark & Light Mode",
+    "Translation": "Translation"
   };
   static const Map<String, Map<String, dynamic>> mapLocales = {
     "ar": _ar,

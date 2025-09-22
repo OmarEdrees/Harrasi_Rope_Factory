@@ -431,7 +431,19 @@
   "enter_start_time": "أدخل وقت البدء",
   "Manufacture_Details": "تفاصيل التصنيع"
 },
+"settings_screen": {
+      "title": "الإعدادات",
+      "Profile": "الملف الشخصي",
+      "Preferences": "التفضيلات",
+      "Notifications": "الإشعارات",
+      "Security_Privacy":"الأمان والخصوصية",
+      "Account":"الحساب",
+      "Help_Support":"المساعدة والدعم",
+      "About":"حول التطبيق"
+    },
 
-  "current_language": "EN",
-  "skip":"تخطى"
+  "current_language": "Ar",
+  "skip":"تخطى",
+  "Dark_Light_Mode": "الوضع الداكن والفاتح",
+  "Translation": "الترجمة"
 }

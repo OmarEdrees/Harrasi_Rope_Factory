@@ -6,6 +6,7 @@ import 'package:harrasi_rope_factory/core/utilies/assets/images/app_images.dart'
 import 'package:harrasi_rope_factory/core/utilies/colors/app_colors.dart';
 import 'package:harrasi_rope_factory/core/utilies/sizes/sized_config.dart';
 import 'package:harrasi_rope_factory/core/utilies/styles/app_text_styles.dart';
+import 'package:harrasi_rope_factory/features/dash_board/views/screens/settings_screen.dart';
 import 'package:harrasi_rope_factory/generated/local_keys.g.dart';
 
 class DashBoardAppBar extends StatelessWidget {
@@ -40,7 +41,13 @@ class DashBoardAppBar extends StatelessWidget {
         hPadding: SizeConfig.width * 0.03,
         vPadding: SizeConfig.height * 0.01,
         icon: CupertinoIcons.settings,
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => SettingsScreen(),
+              ));
+        },
       ),
     ]);
   }
