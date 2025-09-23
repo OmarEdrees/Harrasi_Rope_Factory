@@ -9,6 +9,7 @@ import 'package:harrasi_rope_factory/core/utilies/styles/app_text_styles.dart';
 import 'package:harrasi_rope_factory/features/dash_board/cubit/theme_cubit.dart';
 import 'package:harrasi_rope_factory/features/dash_board/views/widgets/item_of_settings.dart';
 import 'package:harrasi_rope_factory/features/raw_materials/views/widgets/custom_blur_title.dart';
+import 'package:harrasi_rope_factory/features/settings/views/screens/profile_screen.dart';
 import 'package:harrasi_rope_factory/generated/local_keys.g.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -36,6 +37,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     icon: Icons.settings),
               ),
               ItemOfSettings(
+                leading: Icons.brightness_medium,
                 title: LocaleKeys.Dark_Light_Mode.tr(),
                 trealing: Switch(
                   value: context.watch<ThemeCubit>().state is LightThem,
@@ -50,6 +52,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
               ),
               ItemOfSettings(
+                  leading: Icons.g_translate,
                   title: LocaleKeys.Translation.tr(),
                   trealing: Row(
                     children: [
@@ -75,26 +78,34 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     ],
                   )),
               ItemOfSettings(
-                  title: LocaleKeys.settings_screen_Profile.tr(),
-                  trealing: Text('')),
+                leading: Icons.person,
+                title: LocaleKeys.settings_screen_Profile.tr(),
+                ontap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => ProfileScreen(),
+                      ));
+                },
+              ),
               ItemOfSettings(
-                  title: LocaleKeys.settings_screen_Preferences.tr(),
-                  trealing: Text('')),
+                  leading: Icons.favorite,
+                  title: LocaleKeys.settings_screen_Preferences.tr()),
               ItemOfSettings(
-                  title: LocaleKeys.settings_screen_Notifications.tr(),
-                  trealing: Text('')),
+                  leading: Icons.notifications,
+                  title: LocaleKeys.settings_screen_Notifications.tr()),
               ItemOfSettings(
-                  title: LocaleKeys.settings_screen_Security_Privacy.tr(),
-                  trealing: Text('')),
+                  leading: Icons.security,
+                  title: LocaleKeys.settings_screen_Security_Privacy.tr()),
               ItemOfSettings(
-                  title: LocaleKeys.settings_screen_Account.tr(),
-                  trealing: Text('')),
+                  leading: Icons.account_circle,
+                  title: LocaleKeys.settings_screen_Account.tr()),
               ItemOfSettings(
-                  title: LocaleKeys.settings_screen_Help_Support.tr(),
-                  trealing: Text('')),
+                  leading: Icons.call,
+                  title: LocaleKeys.settings_screen_Help_Support.tr()),
               ItemOfSettings(
-                  title: LocaleKeys.settings_screen_About.tr(),
-                  trealing: Text('')),
+                  leading: Icons.help,
+                  title: LocaleKeys.settings_screen_About.tr()),
             ],
           ),
         ),
